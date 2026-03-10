@@ -1,0 +1,18 @@
+Internet
+   │
+Router
+   │
+pfSense Firewall
+   │
+LAN Network (172.16.100.0/24)
+   │
+VMware ESXi Server
+   │
+├── RHEL 9 (Cockpit Server)
+│      IP: 172.16.100.15
+│
+└── Rocky Linux (Web + DB Server)
+       IP: 172.16.100.13
+       Apache
+       MariaDB
+       phpMyAdmin
