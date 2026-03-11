@@ -1,0 +1,30 @@
+Virtualization
+
+-> VMware ESXi 8
+
+
+Operating Systems
+
+-> RHEL 9
+
+-> Rocky Linux
+
+
+Server Services
+
+-> Apache Web Server
+
+-> MariaDB Database
+
+-> phpMyAdmin
+
+-> Cockpit Server Manager
+
+
+Networking
+
+-> pfSense Firewall
+
+-> NAT configuration
+
+-> Public access via static IP
