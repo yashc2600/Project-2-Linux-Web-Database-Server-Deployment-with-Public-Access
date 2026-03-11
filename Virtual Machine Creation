@@ -1,0 +1,13 @@
+Both servers were created as virtual machines inside ESXi.
+
+Configuration Example
+VM      	    OS	        Purpose
+RHEL 9	          Linux     	Server management (Cockpit)
+Rocky Linux	  Linux	        Web + Database server
+
+Example resources:
+
+Resource	Value
+CPU	        2 vCPU
+RAM	         4GB
+Disk	         40GB
