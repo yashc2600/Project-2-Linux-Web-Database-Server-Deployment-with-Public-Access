@@ -1,0 +1,17 @@
+phpMyAdmin allows database management from web browser.
+
+-> Install required packages
+      dnf install php php-mysqlnd php-json php-fpm -y
+
+-> Install phpMyAdmin
+      dnf install phpMyAdmin -y
+
+-> Access URL
+      http://server-ip/phpmyadmin
+
+-> Why phpMyAdmin?
+phpMyAdmin provides:
+      -graphical database management
+      -table creation
+      -query execution
+      -user management
