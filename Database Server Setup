@@ -1,0 +1,10 @@
+MariaDB was installed to provide database services.
+
+-> Install MariaDB
+      dnf install mariadb-server -y
+
+-> Start service
+      systemctl enable --now mariadb
+
+-> Secure installation
+      mysql_secure_installation
