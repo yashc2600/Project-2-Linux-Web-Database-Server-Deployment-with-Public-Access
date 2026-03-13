@@ -1,0 +1,13 @@
+The servers were assigned static private IPs in the same LAN network as ESXi.
+
+Example:
+
+Server	              IP
+ESXi	            172.16.100.13
+RHEL 9	            172.16.100.15
+Rocky Linux	    172.16.100.16
+
+
+Why Static IP?
+
+Static IP ensures that firewall and NAT rules always point to the correct server.
