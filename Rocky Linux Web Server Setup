@@ -1,0 +1,10 @@
+Rocky Linux server was configured as web hosting server.
+
+-> Install Apache
+       dnf install httpd -y
+
+-> Enable Apache
+       systemctl enable --now httpd
+
+-> Test server
+       http://server-ip
