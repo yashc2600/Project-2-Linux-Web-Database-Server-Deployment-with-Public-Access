@@ -1,0 +1,26 @@
+RHEL 9 server was used for remote server management using Cockpit
+
+-> Install Cockpit
+    dnf install cockpit -y
+
+-> Enable service
+    systemctl enable --now cockpit
+
+-> Allow firewall access
+   firewall-cmd --permanent --add-service=cockpit
+   firewall-cmd --reload
+
+-> Cockpit runs on port:
+   9090
+
+-> Access URL
+   https://172.16.100.15:9090
+
+-> Why Cockpit?
+Cockpit provides:
+  -Web based Linux administration
+  -Service monitoring
+  -System resource monitoring
+  -Storage and networking management
+
+This allows GUI based management of Linux servers from browser.
