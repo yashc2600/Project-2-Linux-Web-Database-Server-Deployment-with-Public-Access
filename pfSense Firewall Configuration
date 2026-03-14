@@ -2,24 +2,18 @@ Firewall rules were created to allow external access.
 
 Example rules:
 Source	       Destination	   Port
-Any      	RHEL Server	    9090
-Any	        Web Server	    80
+Any      	 RHEL Server	    9090
+Any	        Web Server	       80
 
 
 NAT Configuration
 Port forwarding was configured to allow public access to internal servers.
 
 Example:
-Public Port	Internal IP	Service
-9090	172.16.100.15	Cockpit
-80	172.16.100.16	Web Server
+Public Port	      Internal IP	       Service
+9090	           172.16.100.15	     Cockpit
+80	             172.16.100.16	     Web Server
 
 This allows access from internet.
-
 Example access:
-
-http://public-ip
-
-or
-
-https://public-ip:9090
+    https://public-ip:9090
