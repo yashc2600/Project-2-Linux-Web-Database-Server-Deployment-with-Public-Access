@@ -1,0 +1,10 @@
+Services were tested by accessing them through public IP.
+
+-> Cockpit
+     https://public-ip:9090
+
+-> Web Server
+     http://public-ip
+
+-> phpMyAdmin
+     http://public-ip/phpmyadmin
